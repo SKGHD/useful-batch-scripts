@@ -1,0 +1,1 @@
+ffmpeg -i 3.mp4 -i 3.mp3 -c:v copy -map 0:v:0 -map 1:a:0 new.mp4

@@ -1,0 +1,1 @@
+(for %%i in (*.wav) do @echo file '%%i') > mylist.txt
